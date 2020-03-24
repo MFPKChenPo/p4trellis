@@ -1,0 +1,94 @@
+{
+  "devices": {
+    "device:leaf1:204": {
+      "segmentrouting": {
+        "name": "leaf1:204",
+        "ipv4NodeSid": 100,
+        "ipv4Loopback": "192.168.0.100",
+        "ipv6NodeSid": 101,
+        "ipv6Loopback": "2000::c0a8:0100",
+        "routerMac": "00:00:00:00:01:00",
+        "isEdgeRouter": true,
+        "adjacencySids": []
+      }
+    },
+    "device:leaf2:205": {
+      "segmentrouting": {
+        "name": "leaf2:205",
+        "ipv4NodeSid": 200,
+        "ipv4Loopback": "192.168.0.200",
+        "ipv6NodeSid": 201,
+        "ipv6Loopback": "2000::c0a8:0200",
+        "routerMac": "00:00:00:00:02:00",
+        "isEdgeRouter": true,
+        "adjacencySids": []
+      }
+    },
+    "device:spine1:226": {
+      "segmentrouting": {
+        "name": "spine1:226",
+        "ipv4NodeSid": 110,
+        "ipv4Loopback": "192.168.0.110",
+        "ipv6NodeSid": 110,
+        "ipv6Loopback": "2000::c0a8:0110",
+        "routerMac": "00:00:00:00:01:10",
+        "isEdgeRouter": false,
+        "adjacencySids": []
+      }
+    },
+    "device:spine2:227": {
+      "segmentrouting": {
+        "name": "spine2:227",
+        "ipv4NodeSid": 210,
+        "ipv4Loopback": "192.168.0.210",
+        "ipv6NodeSid": 211,
+        "ipv6Loopback": "2000::c0a8:0210",
+        "routerMac": "00:00:00:00:02:10",
+        "isEdgeRouter": false,
+        "adjacencySids": []
+      }
+    }
+  },
+  "ports": {
+    "device:leaf1:204/3": {
+      "interfaces": [
+        {
+          "name": "1-A",
+          "ips": [
+            "10.0.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf1:204/4": {
+      "interfaces": [
+        {
+          "name": "3-A",
+          "ips": [
+            "10.0.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf2:205/3": {
+      "interfaces": [
+        {
+          "name": "2-A",
+          "ips": [
+            "192.168.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf2:205/4": {
+      "interfaces": [
+        {
+          "name": "3-B",
+          "ips": [
+            "192.168.100.254/24"
+          ]
+        }
+      ]
+    }
+}
+}
