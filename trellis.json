@@ -1,0 +1,270 @@
+{
+  "devices": {
+    "device:leaf1:204": {
+      "generalprovider": {
+        "p4runtime": {
+          "ip": "127.0.0.1",
+          "deviceKeyId": "p4runtime:device:leaf1:204",
+          "port": 50051,
+          "deviceId": 0
+        },
+        "thirft": {
+          "port": 9090
+        }
+      },
+      "piPipeconf": {
+        "piPipeconfId": "org.onosproject.pipelines.basic.montara"
+      },
+      "ports": {
+        "3/0": {
+          "name": "3/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 135,
+          "removed": false,
+          "type": "copper"
+        },
+        "4/0": {
+          "name": "4/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 134,
+          "removed": false,
+          "type": "copper"
+        },
+        "41/0": {
+          "name": "41/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 4,
+          "removed": false,
+          "type": "copper"
+        },
+        "42/0": {
+          "name": "42/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 6,
+          "removed": false,
+          "type": "copper"
+        }
+      },
+      "basic": {
+        "driver": "barefoot-pro",
+        "name": "leaf1:204"
+      },
+      "segmentrouting": {
+        "name": "leaf1:204",
+        "ipv4NodeSid": 100,
+        "ipv4Loopback": "192.168.0.100",
+        "ipv6NodeSid": 101,
+        "ipv6Loopback": "2000::c0a8:0100",
+        "routerMac": "00:00:00:00:01:00",
+        "isEdgeRouter": true,
+        "adjacencySids": []
+      }
+    },
+    "device:leaf2:205": {
+      "generalprovider": {
+        "p4runtime": {
+          "ip": "127.0.0.1",
+          "deviceKeyId": "p4runtime:device:leaf2:205",
+          "port": 50052,
+          "deviceId": 1
+        },
+        "thirft": {
+          "port": 9091
+        }
+      },
+      "piPipeconf": {
+        "piPipeconfId": "org.onosproject.pipelines.basic.montara"
+      },
+      "ports": {
+        "3/0": {
+          "name": "3/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 135,
+          "removed": false,
+          "type": "copper"
+        },
+        "4/0": {
+          "name": "4/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 134,
+          "removed": false,
+          "type": "copper"
+        },
+        "41/0": {
+          "name": "41/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 4,
+          "removed": false,
+          "type": "copper"
+        },
+        "42/0": {
+          "name": "42/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 6,
+          "removed": false,
+          "type": "copper"
+        }
+      },
+      "basic": {
+        "driver": "barefoot-pro",
+        "name": "leaf2:205"
+      },
+      "segmentrouting": {
+        "name": "leaf2:205",
+        "ipv4NodeSid": 200,
+        "ipv4Loopback": "192.168.0.200",
+        "ipv6NodeSid": 201,
+        "ipv6Loopback": "2000::c0a8:0200",
+        "routerMac": "00:00:00:00:02:00",
+        "isEdgeRouter": true,
+        "adjacencySids": []
+      }
+    },
+    "device:spine1:226": {
+      "generalprovider": {
+        "p4runtime": {
+          "ip": "127.0.0.1",
+          "deviceKeyId": "p4runtime:device:spine1:226",
+          "port": 50053,
+          "deviceId": 2
+        },
+        "thirft": {
+          "port": 9092
+        }
+      },
+      "piPipeconf": {
+        "piPipeconfId": "org.onosproject.pipelines.basic.montara"
+      },
+      "ports": {
+        "41/0": {
+          "name": "41/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 4,
+          "removed": false,
+          "type": "copper"
+        },
+        "42/0": {
+          "name": "42/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 6,
+          "removed": false,
+          "type": "copper"
+        }
+      },
+      "basic": {
+        "driver": "barefoot-pro",
+        "name": "spine1:226"
+      },
+      "segmentrouting": {
+        "name": "spine1:226",
+        "ipv4NodeSid": 110,
+        "ipv4Loopback": "192.168.0.110",
+        "ipv6NodeSid": 110,
+        "ipv6Loopback": "2000::c0a8:0110",
+        "routerMac": "00:00:00:00:01:10",
+        "isEdgeRouter": false,
+        "adjacencySids": []
+      }
+    },
+    "device:spine2:227": {
+      "generalprovider": {
+        "p4runtime": {
+          "ip": "127.0.0.1",
+          "deviceKeyId": "p4runtime:device:spine2:227",
+          "port": 50054,
+          "deviceId": 3
+        },
+        "thirft": {
+          "port": 9093
+        }
+      },
+      "piPipeconf": {
+        "piPipeconfId": "org.onosproject.pipelines.basic.montara"
+      },
+      "ports": {
+        "41/0": {
+          "name": "41/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 4,
+          "removed": false,
+          "type": "copper"
+        },
+        "42/0": {
+          "name": "42/0",
+          "speed": 10000,
+          "enabled": true,
+          "number": 6,
+          "removed": false,
+          "type": "copper"
+        }
+      },
+      "basic": {
+        "driver": "barefoot-pro",
+        "name": "spine2:227"
+      },
+      "segmentrouting": {
+        "name": "spine2:227",
+        "ipv4NodeSid": 210,
+        "ipv4Loopback": "192.168.0.210",
+        "ipv6NodeSid": 211,
+        "ipv6Loopback": "2000::c0a8:0210",
+        "routerMac": "00:00:00:00:02:10",
+        "isEdgeRouter": false,
+        "adjacencySids": []
+      }
+    }
+  },
+  "ports": {
+    "device:leaf1:204/3": {
+      "interfaces": [
+        {
+          "name": "1-A",
+          "ips": [
+            "10.0.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf1:204/4": {
+      "interfaces": [
+        {
+          "name": "3-A",
+          "ips": [
+            "10.0.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf2:205/3": {
+      "interfaces": [
+        {
+          "name": "2-A",
+          "ips": [
+            "192.168.100.254/24"
+          ]
+        }
+      ]
+    },
+    "device:leaf2:205/4": {
+      "interfaces": [
+        {
+          "name": "3-B",
+          "ips": [
+            "192.168.100.254/24"
+          ]
+        }
+      ]
+    }
+}
+}
