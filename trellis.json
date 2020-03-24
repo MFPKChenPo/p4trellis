@@ -8,7 +8,7 @@
           "port": 50051,
           "deviceId": 0
         },
-        "thirft": {
+        "thrift": {
           "port": 9090
         }
       },
@@ -60,9 +60,9 @@
           "ip": "127.0.0.1",
           "deviceKeyId": "p4runtime:device:leaf2:205",
           "port": 50052,
-          "deviceId": 1
+          "deviceId": 0
         },
-        "thirft": {
+        "thrift": {
           "port": 9091
         }
       },
@@ -114,9 +114,9 @@
           "ip": "127.0.0.1",
           "deviceKeyId": "p4runtime:device:spine1:226",
           "port": 50053,
-          "deviceId": 2
+          "deviceId": 0
         },
-        "thirft": {
+        "thrift": {
           "port": 9092
         }
       },
@@ -152,9 +152,9 @@
           "ip": "127.0.0.1",
           "deviceKeyId": "p4runtime:device:spine2:227",
           "port": 50054,
-          "deviceId": 3
+          "deviceId": 0
         },
-        "thirft": {
+        "thrift": {
           "port": 9093
         }
       },

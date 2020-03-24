@@ -50,43 +50,47 @@
     }
   },
   "ports": {
-    "device:leaf1:204/3": {
+    "device:leaf1:204/135": {
       "interfaces": [
         {
           "name": "1-A",
           "ips": [
             "10.0.100.254/24"
-          ]
+          ],
+	  "vlan-untagged":10
         }
       ]
     },
-    "device:leaf1:204/4": {
+    "device:leaf1:204/134": {
       "interfaces": [
         {
           "name": "3-A",
           "ips": [
             "10.0.100.254/24"
-          ]
+          ],
+	  "vlan-untagged":10
         }
       ]
     },
-    "device:leaf2:205/3": {
+    "device:leaf2:205/135": {
       "interfaces": [
         {
           "name": "2-A",
           "ips": [
             "192.168.100.254/24"
-          ]
+          ],
+	  "vlan-untagged":20
         }
       ]
     },
-    "device:leaf2:205/4": {
+    "device:leaf2:205/134": {
       "interfaces": [
         {
           "name": "3-B",
           "ips": [
             "192.168.100.254/24"
-          ]
+          ],
+	  "vlan-untagged":20
         }
       ]
     }
